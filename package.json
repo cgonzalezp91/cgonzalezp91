@@ -2,7 +2,7 @@
   "name": "cgonzalezp91",
   "version": "1.0.0",
   "description": "Personal Web Page Carlos Gonzalez",
-  "author": "Carlos <cgonzalezp91@gmail.com>",
+  "author": "Carlos Gonzalez <https://twitter.com/cgonzalezp91>",
   "private": true,
   "scripts": {
     "dev": "nuxt",
