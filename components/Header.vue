@@ -7,21 +7,21 @@
             <div class="navbar-brand">
                 <a class="navbar-item" href="/">
                 <!-- <img src="http://bulma.io/images/bulma-logo.png" alt="Logo"> -->
-                > cgonzalez91
+                <span class="icon">
+                   <i class="mdi mdi-biohazard"> </i>
+                </span>
+                &nbsp; cgonzalezp91
                 </a>
-                <!--
-            Using the v-on: directive to listen for the click event and toggle the data property showNav. Also, using the v-bind: directive to reactively update the class attribute 'is-active' based on the showNav property.
-            -->
-                <div class="navbar-burger" @click="showNav = !showNav" :class="{ 'is-active': showNav }">
+                
+                <div class="navbar-burger" @click="$store.state.showNav = !$store.state.showNav" :class="{ 'is-active': $store.state.showNav }">
                 <span></span>
                 <span></span>
                 <span></span>
                 </div>
+                
             </div>
-            <!--
-            Using the v-bind: directive to reactively update the class attribute 'is-active' based on the showNav property.
-            -->
-            <div class="navbar-menu is-transparent" :class="{ 'is-active': showNav }">
+            
+            <div class="navbar-menu is-transparent" :class="{ 'is-active': $store.state.showNav }">
                 <div class="navbar-end">
                 <a class="navbar-item" href="/about">
                     About
@@ -33,10 +33,14 @@
                     Blog
                 </a>
                 </div>
+                
             </div>
+            
             </nav>
         </div>
         </section>
+        <div class="movedown" v-if="$store.state.showNav">
+        </div>
     </div>
 </template>
 
@@ -45,7 +49,7 @@ export default {
     name: "hpheader",
     data (){
         return{
-            showNav: false
+            // showNav: false
         }
     }
 }
@@ -53,11 +57,33 @@ export default {
 
 
 <style lang="scss" scoped>
+body{
+    color: aliceblue;
+}
 .is-absolute{
     position: absolute;
 }
 .is-transparent{
     background-color: transparent;
 }
-
+a:hover{
+    color: crimson;
+}
+.navbar-item:hover{
+    background-color: transparent !important;
+}
+@media(max-width: 670px){
+    .navbar-item{
+        font-size: 20px;
+    }
+}
+.movedown{
+    padding-bottom: 100px;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
 </style>

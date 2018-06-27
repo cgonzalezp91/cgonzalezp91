@@ -6,6 +6,11 @@ module.exports = {
   // Simple usage
   'nuxt-buefy'
  ],
+ css: [
+  { src: '@/assets/scss/overrides.scss', lang: 'sass' },
+  { src: '@/assets/scss/background.scss', lang: 'sass' },
+  { src: '@/assets/scss/main.scss', lang: 'sass' }
+],
 //  plugins: ['~plugins/buefy'],
   head: {
     title: 'cgonzalezp91',
