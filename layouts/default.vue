@@ -1,14 +1,11 @@
 <template>
   <div>
-    <hp-header/>
-    <!-- <div class="container"> -->
-   
+    <hp-header/>      
       <div class="fullscreen-video-wrap">
-        <video src="~/assets/Love-Coding.mp4" autoplay="true" loop="true"></video>
+        <video src="~/assets/Love-Coding.mp4" autoplay="true" loop="true" style="max-width: max-content !important"></video>
       </div>
       <div class="header-overlay">
-      </div>
-     <!-- </div> -->
+      </div>     
     <nuxt/>
   </div>
 </template>
@@ -22,9 +19,7 @@ export default {
 
 
 <style scoped>
+
 @import "~assets/scss/background.scss";
 @import "~assets/scss/main.scss";
-video{
-  max-width: max-content !important;
-}
 </style>

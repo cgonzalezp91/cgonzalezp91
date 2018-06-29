@@ -11,6 +11,7 @@ module.exports = {
   { src: '@/assets/scss/background.scss', lang: 'sass' },
   { src: '@/assets/scss/main.scss', lang: 'sass' }
 ],
+modulesDir: ['node_modules'], 
 //  plugins: ['~plugins/buefy'],
   head: {
     title: 'cgonzalezp91',
@@ -20,8 +21,8 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Personal Web Page Carlos Gonzalez' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: '//cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      // { rel: 'stylesheet', href: '//cdn.materialdesignicons.com/2.0.46/css/materialdesignicons.min.css' }
     ]
   },
   /*

@@ -7,7 +7,8 @@
             </figure>
             <h1>Carlos Gonzalez</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates incidunt perferendis ex! Delectus blanditiis cum incidunt fugiat dolore error obcaecati!
+                Full Stack Web Developer, Passionated about JavaScript! <br>
+                <a href="mailto:cgonzalezp91@gmail.com">Hire me! 💪</a>
             </p>
             <!-- <a class="btn" href="#">Read More</a> -->
         </div>
@@ -22,6 +23,7 @@
 
 
 <style lang="scss" scoped>
+// @import "~assets/scss/main.scss";
 .image{
     align-self: center;
 }

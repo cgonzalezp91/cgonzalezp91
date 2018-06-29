@@ -11,10 +11,31 @@
                 I studied and graduated with a degree in computer systems engineer from the <a target="_blank" href="http://www.itnuevolaredo.edu.mx/">Tecnológico de Nuevo Laredo</a> 
                  <br>Also keep studying in <a target="_blank" href="https://www.platzi.com">Platzi</a> with the following courses and specialization in #javascript
             </p>
+            <div style="display: flex; justify-content:space-evenly;">
+            <figure class="image is-128x128">
+                <img src="~/assets/diplomas/certificadojs.png">
+            </figure>
+            <figure class="image is-128x128">
+                <img src="~/assets/diplomas/Node.png">
+            </figure>
+            <figure class="image is-128x128">
+                <img src="~/assets/diplomas/VuePro.png">
+            </figure>
+            <figure class="image is-128x128">
+                <img src="~/assets/diplomas/vuebasico.png">
+            </figure>
+            <figure class="image is-128x128">
+                <img src="~/assets/diplomas/react-native.png">
+            </figure>
+            <figure class="image is-128x128">
+                <img src="~/assets/diplomas/GitYGitHub.png">
+            </figure>
+            </div>
             <h2> Personal</h2>
              <p>
                 I am a father and husband of a beautiful daughter and wife. 👨‍👩‍👧
             </p>
+            
         </div>
         
     </div>
