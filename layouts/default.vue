@@ -5,15 +5,18 @@
         <video src="~/assets/Love-Coding.mp4" autoplay="true" loop="true" style="max-width: max-content !important"></video>
       </div>
       <div class="header-overlay">
-      </div>     
+      </div>
+    <hp-footer/>  
     <nuxt/>
+    
   </div>
 </template>
 
 <script>
 import HpHeader from '~/components/Header.vue'
+import HpFooter from '~/components/Footer.vue'
 export default {
-  components: {HpHeader}
+  components: {HpHeader,HpFooter}
 }
 </script>
 

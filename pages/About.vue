@@ -1,10 +1,10 @@
 <template>
      <div class="v-header container">
         <div class="header-content">
-            <h1>About Me 😃</h1>
+            <h1>About Me</h1>
             <p>
                 I am a Full Stack web developer passionate about learning and writing code. 💪 <br>
-                Also i am in ❤️ of javascript and all the 🌎 around it.
+                Also i am in love of javascript and all the 🌎 around it.
             </p>
            <h2> Professional Career</h2>
             <p>
@@ -50,7 +50,49 @@
     text-align: left;
 }
 
-@media (max-width:960px) {
-    
+@media (max-width: 800px) {
+    .image.is-128x128{
+        width: 90px;
+        height: 90px;
+    }
 }
+@media (max-width: 570px) {
+    .image.is-128x128{
+        width: 60px;
+        height: 60px;
+    }
+    .container{
+      padding-right: 2.8rem;
+      padding-left: 2.8rem;
+    }
+    .header-content h1{
+      font-size: 28px;
+    }
+    h2{
+      font-size: 23px;
+    }
+    .header-content p {
+      font-size: 1.0rem;
+    }
+}
+@media (max-width: 400px) {
+    .image.is-128x128{
+        width: 40px;
+        height: 40px;
+    }
+    .container{
+      padding-right: 2.5rem;
+      padding-left: 2.5rem;
+    }
+    .header-content h1{
+      font-size: 25px;
+    }
+    h2{
+      font-size: 20px;
+    }
+    .header-content p {
+      font-size: .8rem;
+    }
+}
+
 </style>

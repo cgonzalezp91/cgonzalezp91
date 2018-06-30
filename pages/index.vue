@@ -7,7 +7,7 @@
             </figure>
             <h1>Carlos Gonzalez</h1>
             <p>
-                Full Stack Web Developer, Passionated about JavaScript! <br>
+                Full Stack Web Developer, passionate about JavaScript! <br>
                 <a href="mailto:cgonzalezp91@gmail.com">Hire me! 💪</a>
             </p>
             <!-- <a class="btn" href="#">Read More</a> -->
