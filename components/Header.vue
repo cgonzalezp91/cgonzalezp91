@@ -16,7 +16,6 @@
                 <div class="navbar-burger" @click="$store.state.showNav = !$store.state.showNav" :class="{ 'is-active': $store.state.showNav }">
                 <span></span>
                 <span></span>
-                <span></span>
                 </div>
                 
             </div>
@@ -25,9 +24,6 @@
                 <div class="navbar-end">
                 <a class="navbar-item" href="/about">
                     About
-                </a>
-                <a class="navbar-item" href="/path">
-                    Path
                 </a>
                 <a class="navbar-item" href="/blog">
                     Blog
