@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "font-awesome": "^4.7.0",
-    "nuxt": "^1.0.0",
+    "nuxt": "^3.11.2",
     "nuxt-buefy": "^0.1.0",
     "serve": "^9.2.0"
   },
